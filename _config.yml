@@ -1,26 +1,24 @@
 # Site settings
-name: Less Or More
-email: luoyan35714@126.com
-author: Freud Kang
-url: http://www.hifreud.com
-resume_site: http://www.hifreud.com/Resume.io/
-github: https://github.com/luoyan35714/
-baseurl: "/LessOrMore"
-description: Actually, less is more!
-meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+title: "要么读书写博客，要么旅游，身体和灵魂总要有一个在路上"
+logo: jianbing.png # image from https://www.flickr.com/photos/lwr/5496279831/in/set-72157594159055823
+email: wangjianbingjob@aliyun.com
+description: "总会有很抵触一些对你可能会有好处的东西的时候，总会有在新的知识殿堂外摸索徘徊不得进感到沮丧的时候，忍住，坚持住，直视它，再进一步摸索下，有可能会见到一片蓝天"
+# this means to ignore newlines until "url:"
+  # Roon was an excellent service, with a beautiful understated design. After
+  # being acquired by <a href='https://ghost.org'>Ghost</a>, the Roon theme was
+  # open sourced.<br> This is my Jekyll port of the Roon theme.
+url: "https://github.com/bingyingtogether" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+#twitter_username: jekyllrb
+github_username:  bingyingtogether
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
-
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
-
-github_username: luoyan35714
+permalink: pretty
+paginate: 5
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
-
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
