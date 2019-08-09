@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "用Github搭建属于自己的博客"
-image: joon-big.jpg
 video: false
 ---
 
