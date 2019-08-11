@@ -1,11 +1,8 @@
 * toc
 {:toc}
 
+HashMap对java、android程序员来说并不陌生，是经常会用到的用于键值对处理的数据类型，随着JDK的升级，JAVA8对HashMap底层的实现做了优化，例如引入红黑树的数据结构和扩容的优化等等，本文结合JDK1.7和JDK1.8的区别，深入探讨HashMap的结构实现和功能原理。
 ## HashMap详解——java8
-
-### 摘要
-
-HashMap对java、android程序员来说并不陌生，是经常会用到的用于键值对处理的数据类型，随着JDK的升级，java1.8对HashMap底层的实现做了优化，例如引入红黑树的数据结构和扩容的优化等等，本文结合JDK1.7和JDK1.8的区别，深入探讨HashMap的结构实现和功能原理。
 
 ### 简介
 
