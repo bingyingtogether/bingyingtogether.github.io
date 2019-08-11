@@ -1,8 +1,4 @@
-* toc
-{:toc}
-
 用github搭建一个属于自己的博客，首先你得拥有一个github的账号，github的账号申请就不说了，下面直接开始结合jekyll搭建一个博客并绑定自己的域名：
-
 ##### 一、打开你的github页面，新建一个仓库，仓库的名字格式 ：username(你自己的用户名).github.io ，一个用户一个github博客，   如下图：
 
 ![创建仓库](http://qn.bingying.online/18-11-29/81107615.jpg)
