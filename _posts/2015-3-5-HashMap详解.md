@@ -1,4 +1,5 @@
-[TOC]
+* toc
+{:toc}
 
 ## HashMap详解——java8
 
